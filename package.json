@@ -1,7 +1,7 @@
 {
-  "name": "pogomap",
-  "version": "0.1.0",
-  "description": "RocketMap - Live Visualization",
+  "name": "monocle-rm-front",
+  "version": "1.0.0",
+  "description": "Monocle-RM-Front",
   "main": "Gruntfile.js",
   "dependencies": {
     "babel-preset-env": "^1.6.0",
@@ -39,16 +39,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketMap/RocketMap.git"
+    "url": "git+https://github.com/ultrafunkamsterdam/Monocle-RM-Front.git"
   },
   "keywords": [
     "Pokemon",
     "Go"
   ],
-  "author": "Carl Taylor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RocketMap/RocketMap/issues"
-  },
-  "homepage": "https://github.com/RocketMap/RocketMap#readme"
+  "author": "UltrafunkAmsterdam",
+  "license": "MIT"
 }
