@@ -1,0 +1,47 @@
+.rocket.icon {
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+
+button.swal2-styled {
+    line-height:1;
+}
+.swal2-container {
+    z-index: 10060;
+    font-family: 'Open Sans', sans-serif;
+}
+.swal2-modal.swal2-show {
+    padding: 1rem;
+}
+.swal2-modal .swal2-title{
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+}
+.swal2-buttonswrapper{
+    margin-top: 0.5rem;
+}
+.swal2-content > p {
+    margin: 0 0 1em 0;
+    font-size: 1.05rem;
+}
+.swal2-modal .swal2-image{
+    margin: 0.5rem auto;
+    max-width: 100%;
+}
+.swal2-image {
+    margin: 0.5rem auto;
+}
+.swal2-modal .swal2-styled{
+font-size: 1rem;
+font-weight: 600;
+margin: 0 0.5rem;
+padding: 0.5rem 1rem;
+}
+.specialmessage{
+    font-family: "Open Sans",sans-serif;
+    color: black;
+    font-size:1rem;
+    }
