@@ -1,7 +1,13 @@
 # Monocle-RM-Front
 A Rocketmap Monocle frontend implementation. This has to be used together with my Monocle Repo (only postgres support!)
 
-To install: 
+# After this beautiful image, there is a short howto on installation
+
+Screenshot:
+![alt text][logo]
+
+
+# Install: 
 Clone the repo
 Change api/raw_data.php -> first block of code (valid referers and cors) : replace yoursite.tld with your actual site.
 Change api/config.php -> change your postgres db credetials
@@ -51,9 +57,6 @@ rewrite ^/gym_data(.*)$ /api/gym_data.php?$1 last;
 ```
 
 
-
-Screenshot:
-![alt text][logo]
 
 
 
