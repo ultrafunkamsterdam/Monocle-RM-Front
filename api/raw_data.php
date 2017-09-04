@@ -214,7 +214,7 @@ WHERE  expire_timestamp > :time
   }
 
   $pokemons = array();
-  $json_poke = '/devplayground/RocketMap-Official/static/data/pokemon.json';
+  $json_poke = '../static/data/pokemon.json';
   $json_contents = file_get_contents($json_poke);
   $data = json_decode($json_contents, TRUE);
   $i = 0;
@@ -298,7 +298,7 @@ AND    lon < :neLng', array_merge($pkmn_ids, [':timeStamp' => time() , ':swLat' 
   }
 
   $pokemons = array();
-  $json_poke = '/devplayground/RocketMap-Official/static/data/pokemon.json';
+  $json_poke = '../static/data/pokemon.json';
   $json_contents = file_get_contents($json_poke);
   $data = json_decode($json_contents, TRUE);
   $i = 0;
@@ -558,7 +558,7 @@ WHERE t3.lat > :swLat
   $i = 0;
   $gyms = array();
   $gym_ids = array();
-  $json_poke = '/devplayground/RocketMap-Official/static/data/pokemon.json';
+  $json_poke = '../static/data/pokemon.json';
   $json_contents = file_get_contents($json_poke);
   $data = json_decode($json_contents, TRUE);
   /* fetch associative array */
