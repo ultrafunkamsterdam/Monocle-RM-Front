@@ -10,7 +10,7 @@ function i8ln($word)
 
     global $localeData;
     if ($localeData == null) {
-        $filepath = '/devplayground/RocketMap-Official/static/dist/locales/' . $locale . '.min.json';
+        $filepath = '../static/dist/locales/' . $locale . '.min.json';
         if (file_exists($filepath)) {
             $json_contents = file_get_contents($filepath);
             $localeData = json_decode($json_contents, TRUE);
